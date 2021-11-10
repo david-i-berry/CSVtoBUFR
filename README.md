@@ -93,7 +93,7 @@ the *csv2bufr.py* script to check for stale metadata.
 The second file, *mapping-simple.json*, contains the elements from the expanded BUFR sequence with data (indicated by 
 the key used within ecCodes, see e.g. https://confluence.ecmwf.int/display/ECC/WMO%3D36+element+table), whether a fixed
 value is used or whether the element is mapped to a column in the csv file and optional valid minimum and maximum 
-values to check when converting to BUFR. Note that the name of the file is specified on the commnad line / call to 
+values to check when converting to BUFR. Note that the name of the file is specified on the command line / call to 
 *csv2bufr.py*. A truncated example is given below, see *mapping-simple.json* for full example:
 ````json
     [
